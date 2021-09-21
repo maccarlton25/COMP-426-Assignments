@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2048</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 title">
+                <h1>2048</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 title">
+                <h3 id="score">
+                    score: 0
+                </h3>
+            </div>
+            <div class="col-6 title">
+                <button type="button" class="reset btn btn-danger">Reset</button>
+            </div>
+        </div>
+        <div class="row">
+            <p>HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048!</p>
+        </div>
+        <div class="board">
+
+        </div>
+        <div class="notification">
+
+        </div>
+    </div>
+</body>
+</html>
